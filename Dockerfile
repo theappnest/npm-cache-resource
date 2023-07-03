@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:latest
+FROM node:16.14-alpine
 
 # Build-time metadata as defined at http://label-schema.org
 ARG BUILD_DATE
